@@ -1,0 +1,16 @@
+{
+  "name": "ts-filters",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@elysiajs/swagger": "^1.3.0",
+    "elysia": "^1.3.3"
+  }
+}
