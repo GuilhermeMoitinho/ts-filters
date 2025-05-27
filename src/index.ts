@@ -1,8 +1,8 @@
 import { Elysia, t } from 'elysia'
-import { users } from './src/data/users'
-import { filterData } from './src/utils/filterData'
-import { type Filter } from './src/models/filter'
-import { swaggerPlugin } from './src/plugins/swagger'
+import { users } from './data/users'
+import { filterData } from './utils/filterData'
+import { type Filter } from './models/filter'
+import { swaggerPlugin } from './plugins/swagger'
 
 const app = new Elysia()
   .use(swaggerPlugin)
